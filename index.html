@@ -2,16 +2,22 @@
 <html>
 <head>
     <title>FoodHub</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <h1>🍔 FoodHub</h1>
     <p>Order from restaurants and supermarkets</p>
 
+    <h2 id="cart">🛒 Cart (0)</h2>
+
     <h2>🍕 Pizza Restaurant</h2>
-    <button>Add Pizza</button>
+    <button onclick="addItem('Pizza')">Add Pizza</button>
 
     <h2>🥤 Supermarket</h2>
-<button onclick="addItem('Pizza')">Add Pizza</button>
+    <button onclick="addItem('Pepsi')">Add Pepsi</button>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
